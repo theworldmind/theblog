@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Blog — Yazılar, düşünceler, notlar</title>
+  <meta name="description" content="Sade, düşünceli ve samimi yazılar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Ana menü">
+      <a class="brand" href="#top">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 14c3-4 6-4 10 0s7 4 10 0"/></svg>
+        The Blog
+      </a>
+      <ul class="pill-menu">
+        <li><a class="active" href="#top">Ana sayfa</a></li>
+        <li><a href="#yazilar">Yazılar</a></li>
+        <li><a href="#hakkimda">Hakkımda</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+      <a class="nav-cta" href="#bulten">Bültene katıl</a>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>Okuması yavaş,<br>akılda kalması uzun.</h1>
+        <p class="lead">Acele etmeyen yazılar. Tasarım, teknoloji ve gündelik hayat üzerine notlar. Reklam yok, gürültü yok, sadece iyi yazı.</p>
+        <div class="actions">
+          <a class="btn btn-light" href="#yazilar">Yazıları oku <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="#hakkimda">Hakkımda <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <aside class="glass featured" aria-label="Öne çıkan yazılar">
+        <div class="glass-head">Bu haftanın seçkisi</div>
+        <a class="mini" href="#yazilar">
+          <div class="mini-top"><strong>Sadeliğin gücü</strong><span>5 dk</span></div>
+          <div class="mini-meta">Tasarım</div>
+          <div class="mini-row"><span>Yayın <b>Cum 14</b></span><span class="chip">yeni</span><span>Okunma <b>1,2B</b></span></div>
+        </a>
+        <a class="mini" href="#yazilar">
+          <div class="mini-top"><strong>Renk paleti hilesi</strong><span>4 dk</span></div>
+          <div class="mini-meta">Web</div>
+          <div class="mini-row"><span>Yayın <b>Cmt 22</b></span><span class="chip">popüler</span><span>Okunma <b>3,4B</b></span></div>
+        </a>
+      </aside>
+    </div>
+
+    <ul class="perks">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Haftada bir yazı</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Ortalama 5 dk okuma</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>İzleme ve takip yok</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Her zaman ücretsiz</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H8l-4 4z"/></svg>Yorumlara açık</li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="section" id="yazilar">
+      <div class="wrap">
+        <p class="eyebrow">Son yazılar</p>
+        <h2>Okumaya değer ne varsa.</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="tag">Tasarım</span>
+            <h3>Sadeliğin gücü</h3>
+            <p>Az eleman, net hiyerarşi. Neden sade arayüzler daha profesyonel görünür?</p>
+            <a href="#">Devamını oku →</a>
+          </article>
+          <article class="card">
+            <span class="tag">Web</span>
+            <h3>Renk paleti hilesi</h3>
+            <p>İki renkle başlayın: bir koyu, bir açık. Gerisini boşluk ve tipografi halleder.</p>
+            <a href="#">Devamını oku →</a>
+          </article>
+          <article class="card">
+            <span class="tag">Yazı</span>
+            <h3>Yavaş yazmanın faydaları</h3>
+            <p>Hızlı üretim çağında bir fikri olgunlaştırmak neden hâlâ en iyi yöntem?</p>
+            <a href="#">Devamını oku →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="hakkimda">
+      <div class="wrap narrow">
+        <p class="eyebrow">Hakkımda</p>
+        <h2>Merhaba, ben bu blogun yazarıyım.</h2>
+        <p class="about">Burada ilgimi çeken konular hakkında yazıyorum. Amacım, karmaşık şeyleri sade anlatmak. Bu metni kendi tanıtımınızla değiştirebilirsiniz.</p>
+      </div>
+    </section>
+
+    <section class="section" id="bulten">
+      <div class="wrap narrow center">
+        <p class="eyebrow">Bülten</p>
+        <h2>Yeni yazılar e-postanıza gelsin.</h2>
+        <form class="subscribe" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Teşekkürler ✓';">
+          <input type="email" required placeholder="E-posta adresiniz" aria-label="E-posta adresiniz">
+          <button type="submit" class="btn btn-navy">Katıl</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="iletisim">
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> The Blog</span>
+      <a href="mailto:berkaytoruntga@gmail.com">berkaytoruntga@gmail.com</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
